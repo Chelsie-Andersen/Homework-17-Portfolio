@@ -54,9 +54,9 @@
 .welcome h2 {
   font-family: 'Fraunces';
   color:#12121280;
-  font-size:25px;
+  font-size:45px;
   font-weight:500;
-  line-height:27px;
+  line-height:47px;
   letter-spacing: normal;
   padding: 15px;
 }
@@ -81,10 +81,19 @@
     width: 100vw;
 }
 
-.heroimg.{
+.heroimg{
   float:left;
   padding-top: 80px;
   padding-right: 0px;
   padding-bottom: 30px;
   padding-left: 435px;
+  }
+
+  #heroimg{
+    width: 25%;
+    float:left;
+    padding-top: -700px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 335px;
   }
