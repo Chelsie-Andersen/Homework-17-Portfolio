@@ -1,27 +1,38 @@
-.navbar{
+.v-effect-link {
   list-style-type: none;
   margin: 0;
-  padding-top: 30px;
-  padding-right: 0px;
-  padding-bottom: 30px;
-  padding-left: 800px;
+  padding: 30px 0px 30px 0px;
   text-align: center;
-  font-family: 'Fraunces';
-  overflow: hidden;
-  background-color: none;
+}
+.v-effect-link li {
+  display: inline-block;
+  min-width: 5em;
+  margin: 0 0.5em;
+}
+.v-effect-link a {
+  text-decoration: none;
+  display: block;
+  font-family: 'Fraunces', serif;
+  position: relative;
   color: #565452;
-  }
+  padding:.5em 0
+}
+.v-effect-link a:hover {
+  color: #E89537;
+  font-weight: 700;
+}
+
+.v-effect-link a:hover:before {
+  left: 0;
+  width: 100%;
+}
 
 .li{
-  display: block;
+  display: inline;
   color: #565452;
-  text-align: center;
-  text-orientation: vertical;
   padding: 35px;
-  background-color: #ffffff;
-  text-decoration: none;
-  float: left;
-  }
+   }
+
 
 * {
   margin:0;
@@ -29,71 +40,91 @@
 }
 
 .welcome {
-  padding-top: 80px;
-  padding-right: 435px;
-  padding-bottom: 30px;
-  padding-left: 0px;
   text-align: left;
-  width: 20%;
-  padding-left: 15px;
+  width: 75%;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   margin-left: 15px;
   float: right;
   background-color: none;
+  position:absolute;
+  z-index:1;    
 }
   
 .welcome h1 {
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   color:#565452;
-  font-size:45px;
+  font-size:64px;
   font-weight:bold;
-  line-height:47px;
+  line-height:67px;
   letter-spacing: normal;
-  padding: 15px;
+  padding-top: 168px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 1000px;
 }
 
 .welcome h2 {
-  font-family: 'Fraunces';
+  font-family: 'Fraunces', serif;
   color:#12121280;
-  font-size:45px;
+  font-size:36px;
   font-weight:500;
-  line-height:47px;
+  line-height:39px;
   letter-spacing: normal;
-  padding: 15px;
-}
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 1000px;
+ }
 .welcome p {
   font-family: 'Karla', sans-serif;;
   color:#565452;
   font-size:16px;
-  padding: 15px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 1000px;
+ }
+
+ #heroimg{
+  width: 25%;
+  float:left;
+  padding-top: 0px;
+  padding-right: -100px;
+  padding-bottom: -300px;
+  padding-left: 405px;
+  position:absolute;
+  z-index:1;
 }
+
+
 
 .hero-background{
-    background-attachment: fixed;
-    background-position: 50%;
+    background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-size: contain;
+    height: 800px;
     left: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    position: absolute;
     right: 50%;
-    width: 100vw;
+    margin-left: -940px;
+    margin-right: 40vw;
+    position: absolute;
+    width: 1822px;
+  }
+
+
+ .tff {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 275px;
+    margin-right: 275px;
+    width: 80%;
+ } 
+
+.image-container{
+  text-align: center;
+  width: 1800px;
 }
-
-.heroimg{
-  float:left;
-  padding-top: 80px;
-  padding-right: 0px;
-  padding-bottom: 30px;
-  padding-left: 435px;
-  }
-
-  #heroimg{
-    width: 25%;
-    float:left;
-    padding-top: -700px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 335px;
-  }
